@@ -1,0 +1,53 @@
+{
+  "name": "SMACSS-Gulp-Quickstart",
+  "description": "🔥 A Gulp quickstart build for a SMACSS/SASS Wordpress build 🔥",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikesetzer/SMACSS-Gulp-Quickstart.git"
+  },
+  "keywords": [
+    "gulp",
+    "sass",
+    "UCF",
+    "business",
+    "services",
+    "business services",
+    "mike setzer",
+    "setzer",
+    "sass",
+    "scss",
+    "doc",
+    "smacss",
+    "atomic"
+  ],
+  "author": {
+    "name": "Mike Setzer",
+    "url": "https://github.com/mikesetzer/"
+  },
+  "bugs": {
+    "url": "https://github.com/mikesetzer/SMACSS-Gulp-Quickstart"
+  },
+  "homepage": "https://github.com/mikesetzer/SMACSS-Gulp-Quickstart/#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.0.0-rc4",
+    "colors": "^1.1.2",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "1.3.3",
+    "gulp-sourcemaps": "^2.6.1",
+    "run-sequence": "^2.1.0",
+    "sassdoc": "^2.1.15",
+    "vinyl-paths": "^2.0.0"
+  }
+}
