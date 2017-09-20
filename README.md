@@ -34,6 +34,15 @@ This will give you file watching, auto-rebuild, and CSS injection.
 $ gulp
 ```
 
+## WordPress modularization
+
+All Wordpress theme modifications are added to the partials folders
+
+If you are modifying a plugin's CSS, eg. GravityForms, simply:
+- Add a _gforms.scss file to partials
+- Add the import to partials/_index.scss
+- And head the _gforms.scss file with the appropriate selector
+
 ## Deployment
 - The Dev branch is automatically deployed to the Office Plus Dev environment
 - The Master branch is automatically deployed to the Office Plus QA environment
